@@ -1,0 +1,110 @@
+{
+  "pagos": {
+    "pago": {
+      "cuotasMontoInicial": 2,
+      "cantidadCuotasMontoFinanciar": "3",
+      "idPersona": null,
+      "fecha": null,
+      "terreno": {
+        "id": 1,
+        "numero": 1,
+        "manzana": "A",
+        "precio": 14761.25
+      },
+      "precio": 14761.25,
+      "cuotas": [
+        {
+          "fecha": "2022-01-28",
+          "monto": 100,
+          "saldo": 14661.25
+        },
+        {
+          "fecha": "2022-02-28",
+          "monto": 100,
+          "saldo": 14561.25
+        }
+      ],
+      "fechaInicioMontoInicial": "2022-01-28",
+      "fechaInicioMontoFinanciar": "2022-03-28",
+      "cuotasMontoFinanciar": [
+        {
+          "fecha": "2022-03-28",
+          "monto": 4853.75,
+          "saldo": 9707.5
+        },
+        {
+          "fecha": "2022-04-28",
+          "monto": 4853.75,
+          "saldo": 4853.75
+        },
+        {
+          "fecha": "2022-05-28",
+          "monto": 4853.75,
+          "saldo": 0
+        }
+      ],
+      "proyecto": 3
+    },
+    "cliente": {
+      "id": 4,
+      "nombre": "BETZABE DEL VALLE BONINO DE SALAZAR",
+      "direccion": "URB. RESIDENCIAL ALAMEDA DEL SOL MZA. E LT-1",
+      "distrito": "JLBYR-AREQUIPA",
+      "dni": 44655377,
+      "telefono": 990058805,
+      "correo": "NO POSEE",
+      "coopropietario": "OSCAR EDUARDO SALAZAR LIZARRAGA",
+      "tel_coopropietario": "o.e.salazar@hotmail.com"
+    },
+    "tipoCambio": "3.70",
+    "moneda": "Dólar"
+  },
+  "pagoss": {
+    "pagos": [
+      {
+        "id": 14,
+        "idPersona": 4,
+        "fecha": "2022-01-30",
+        "moneda": "D\u00f3lar",
+        "fecha_siguiente": "2022-01-28",
+        "estado": "Pendiente",
+        "numero": 1,
+        "manzana": "A",
+        "persona": "BETZABE DEL VALLE BONINO DE SALAZAR",
+        "fecha_actual": "2022-01-30",
+        "cont_cuo_deu": 1,
+        "sum_cuo_deu": "100.00"
+      },
+      {
+        "id": 13,
+        "idPersona": 6,
+        "fecha": "2022-01-25",
+        "moneda": "Sol",
+        "fecha_siguiente": "2022-01-07",
+        "estado": "Pendiente",
+        "numero": 12,
+        "manzana": "M",
+        "persona": "JAIRO ADRIAN ESCOBRDO GAMBOA",
+        "fecha_actual": "2022-01-30",
+        "cont_cuo_deu": 2,
+        "sum_cuo_deu": "11796.19"
+      },
+      {
+        "id": 10,
+        "idPersona": 4,
+        "fecha": "2022-01-19",
+        "moneda": "Sol",
+        "fecha_siguiente": "2022-03-05",
+        "estado": "Pendiente",
+        "numero": 2,
+        "manzana": "N",
+        "persona": "BETZABE DEL VALLE BONINO DE SALAZAR",
+        "fecha_actual": "2022-01-30",
+        "cont_cuo_deu": 0,
+        "sum_cuo_deu": null
+      }
+    ],
+    "total": 47261.25,
+    "pagosPorCobrar": "11896.19"
+  }
+}
